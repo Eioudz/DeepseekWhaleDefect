@@ -1,0 +1,9 @@
+{
+  "title": null,
+  "description": null,
+  "visibility": "public",
+  "changeNote": "2026-10-08 更新：\n1. 新增遗物「美味饼干」图标：机器人版替换为蓝色大肥鱼（Q 版女仆鲸鱼娘）\n2. 卡牌插图更新：「双重释放」「电击」替换为新立绘\n3. 卡牌插图替换流程重构，改用无损 WebP 打包，画质更好且不会拉伸变形",
+  "tags": [],
+  "dependencies": [],
+  "contentDescriptors": []
+}

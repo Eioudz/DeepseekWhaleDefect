@@ -1,0 +1,55 @@
+# ============================================================
+# 禁止公开：游戏本体内容 / 第三方二进制
+# 以下内容从《杀戮尖塔 2》游戏本体提取或反编译得到，不属于本工程
+# ============================================================
+
+# 反编译的游戏 C# 代码（3539 个文件）
+_allcs/
+# 反编译的游戏 C# 代码（关键类）
+_decomp/
+# 游戏本地化文本（46 个 json）
+base_zhs/
+# 游戏原始资源导出（.spskel / .ctex / atlas）
+investigate/
+# 第三方上传工具（含 Valve steam_api64.dll / exe）
+mod_uploader/
+# 引擎/运行时参考源码
+_ref_*.cpp
+# 游戏运行时日志
+_game_loc*.log
+# 与游戏原版同源的 pck（root 的 DeepseekWhaleDefect.pck 与其字节相同）
+orig_from_zip.pck
+/DeepseekWhaleDefect.pck
+DeepseekWhaleDefect.zip
+mod-uploader.log
+
+# ============================================================
+# 构建中间物与备份
+# ============================================================
+defendskin_work/_prev_*.pck
+defendskin_work/*.pck.new
+defendskin_work/_prev_*.json
+# 临时骨架 dump
+defendskin_work/_*.skel
+# 从游戏提取的原始 ctex 与 atlas 文本
+defendskin_work/*_ctex.bin
+defendskin_work/*.spatlas.txt
+defendskin_work/_ship.atlas.bin
+# 从游戏导出的场景/资源 dump（_dump/、_ship_*.tscn 为原版资源）
+defendskin_work/_dump/
+defendskin_work/_ship_*.tscn
+
+# ============================================================
+# 预览图 / 诊断截图（体积大，脚本可重新生成）
+# 仅保留脚本实际读取的小素材
+# ============================================================
+defendskin_work/*.png
+!defendskin_work/_cookie_cut.png
+!defendskin_work/_cookie_outline.png
+!defendskin_work/halo_*.png
+
+# ============================================================
+# 杂项
+# ============================================================
+__pycache__/
+*.pyc
